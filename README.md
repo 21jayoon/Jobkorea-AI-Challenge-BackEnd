@@ -88,7 +88,7 @@ from langchain_anthropic import ChatAnthropic
 python main.py
 ```
 
-Swagger 사용 시 
+* Swagger 사용 시 
 ```cmd
 uvicorn main:app --reload
 ```
@@ -96,7 +96,7 @@ uvicorn main:app --reload
 ```cmd
 python -m uvicorn main:app --reload
 ```
-사용 요망망
+사용 요망
 
 서버가 성공적으로 실행되면 `http://127.0.0.1:8000` 에서 접근할 수 있습니다.
 (fastAPI를 사용해서 Swagger에도 접근 가능하기 때문에 http://127.0.0.1:8000/docs 로의 접근을 더 추천합니다.)

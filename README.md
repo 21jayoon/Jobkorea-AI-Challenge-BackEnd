@@ -48,7 +48,7 @@
 
 ### 1. 저장소 클론
 ```cmd
-git clone <repository-url>
+git clone https://github.com/21jayoon/Jobkorea-AI-Challenge-BackEnd.git
 cd job-interview-chatbot
 ```
 

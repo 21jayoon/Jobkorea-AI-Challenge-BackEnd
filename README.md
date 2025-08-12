@@ -51,6 +51,8 @@
 git clone https://github.com/21jayoon/Jobkorea-AI-Challenge-BackEnd.git
 cd job-interview-chatbot
 ```
+(개발은 VS code로 이루어졌습니다. 
+VS code 사용을 권장합니다.)
 
 ### 2. 필요한 패키지 설치
 ```cmd
@@ -61,7 +63,7 @@ pip install -r requirements.txt
 ```cmd
 pip install [각 패키지 이름]
 ```
-로 하나하나 설치 필요
+로 하나씩 설치 필요
 예시) pip install uvicorn
 pip install langchain_openai
 
